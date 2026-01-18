@@ -20,3 +20,9 @@ nav:
     url: /#logs
   - title: Status
     url: /status/
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default

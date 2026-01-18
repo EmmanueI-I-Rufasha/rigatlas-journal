@@ -12,13 +12,15 @@
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
     <script src="https://use.fontawesome.com/4d74086fc6.js"></script>
 
-    <link rel="stylesheet" href="{{ `/assets/css/site.css` | relative_url }}" />
+    <link rel="stylesheet" href="{{ '/assets/css/site.css' | relative_url }}" />
+    <!-- <link rel="stylesheet" href="{{ `/assets/css/site.css` | relative_url }}" /> -->
 </head>
 
 <body>
 <header class="topbar">
     <div class="container topbar-inner">
-    <a class="brand" href="{{ `/` | relative_url }}">{{ site.title }}</a>
+    <a class="brand" href="{{ '/' | relative_url }}">{{ site.title }}</a>
+    <!-- <a class="brand" href="{{ `/` | relative_url }}">{{ site.title }}</a> -->
 
     <nav class="nav">
         {% for item in site.nav %}
