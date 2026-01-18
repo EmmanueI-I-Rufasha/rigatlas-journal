@@ -4,7 +4,7 @@ title: RigAtlas Development Journal
 
 # RigAtlas Development Journal
 
-This is a public engineering journal for building RigAtlas — documenting the work from early planning and system design through to implementation and release.
+This is a public engineering journal for building RigAtlas, documenting the work from early planning and system design through to implementation and release.
 
 Entries capture:
 - what was done

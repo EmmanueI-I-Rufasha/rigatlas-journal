@@ -1,5 +1,5 @@
 :root {
-  --bg: #0b0f14;
+  --bg: #f6f8fa; /* #0b0f14; */
   --card: #0f1620;
   --text: #e6edf3;
   --muted: #9fb0c0;
@@ -169,7 +169,7 @@ blockquote {
 
 .ra-card {
   margin-left: 60px;
-  background: rgba(255,255,255,0.04);
+  background: rgba(15, 22, 32, 0.96);  /*rgba(255,255,255,0.04);*/
   border: 1px solid var(--border);
   border-radius: 16px;
   padding: 14px 14px;
