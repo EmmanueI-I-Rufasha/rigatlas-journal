@@ -30,9 +30,9 @@ a:hover { text-decoration: none; }
 .topbar {
   position: sticky;
   top: 0;
-  background: #dde2e9; /* rgba(11, 15, 20, 0.88); */
+  background: rgb(177 177 177 / 69%); /* rgba(11, 15, 20, 0.88); */
   backdrop-filter: blur(10px);
-  border-bottom: 1px solid rgba(15, 23, 42, 0.247); /* border-bottom: 1px solid var(--border); */
+  /* border-bottom: 1px solid rgba(15, 23, 42, 0.247); border-bottom: 1px solid var(--border); */
   z-index: 50;
 }
 
@@ -46,6 +46,7 @@ a:hover { text-decoration: none; }
 .brand {
   font-weight: 700;
   letter-spacing: 0.2px;
+  color: #8e8f8f !important; 
 }
 
 .nav {
@@ -65,6 +66,10 @@ a:hover { text-decoration: none; }
   color: var(--text);
   background: rgba(255, 255, 255, 0.06);
   text-decoration: none;
+}
+
+.brand, .nav-link{
+    text-transform: uppercase;
 }
 
 .content {
@@ -146,7 +151,7 @@ blockquote {
   left: 24px;
   height: 100%;
   width: 4px;
-  background: rgba(124, 196, 255, 0.35);
+  background: rgb(177 177 177 / 69%);/*rgba(124, 196, 255, 0.35);*/
   border-radius: 999px;
 }
 
@@ -178,6 +183,7 @@ blockquote {
 .ra-card h3 {
   margin: 0 0 6px;
   font-size: 18px;
+  color:rgb(158 194 225 / 88%);
 }
 
 .ra-card { max-width: 520px; }
@@ -200,11 +206,14 @@ blockquote {
   padding: 4px 10px;
   border-radius: 999px;
   border: 1px solid var(--border);
-  background: rgba(0,0,0,0.2);
-  color: var(--text);
+  /* background: rgba(0,0,0,0.2); */
+  /* color: var(--text); */
 }
 
-.ra-badge i { opacity: 0.9; }
+.ra-badge i {
+  opacity: 0.9; 
+  color: #7d7b17    
+}
 
 .ra-desc {
   color: rgba(230, 237, 243, 0.88);

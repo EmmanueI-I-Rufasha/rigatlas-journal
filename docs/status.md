@@ -73,7 +73,7 @@ This page shows the high-level lifecycle of RigAtlas — from early research and
         </ul>
 
         <p class="ra-desc"><strong>Epics defined so far:</strong></p>
-        <ul class="ra-list">
+        <ul class="ra-list" style="list-style: none;">
           <li>0. Platform Foundation, Architecture & Development Setup</li>
           <li>1. Asset Inventory Core</li>
           <li>2. Rig-Centric Network Diagram</li>

@@ -14,9 +14,13 @@ baseurl: "/rigatlas-journal"
 
 # Navigation (I’ll render this myself in the layout)
 nav:
-  - title: Journal
-    url: /
-  - title: Status
+  - title: JOURNAL
+    url: / 
+  - title: PROBLEM DEFINITION
+    url: /problem/
+  - title: SOLUTION
+    URL: /solution/
+  - title: CURRENT STATUS
     url: /status/
 
 defaults:
