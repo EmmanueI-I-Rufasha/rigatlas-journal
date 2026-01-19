@@ -1,5 +1,5 @@
 ---
-title: Solution Approach
+title: Solution To The Problem
 ---
 
 # Solution Approach
