@@ -73,17 +73,17 @@ This page shows the high-level lifecycle of RigAtlas — from early research and
         </ul>
 
         <p class="ra-desc"><strong>Epics defined so far:</strong></p>
-        <ul class="ra-list" style="list-style: none;">
-          <li>0. Platform Foundation, Architecture & Development Setup</li>
-          <li>1. Asset Inventory Core</li>
-          <li>2. Rig-Centric Network Diagram</li>
-          <li>3. IEC 62443 Security Program</li>
-          <li>4. Lifecycle & Expiry Management</li>
-          <li>5. Offline-First & Sync Strategy</li>
-          <li>6. Reporting & Visualisation</li>
-          <li>7. Platform Hardening & Release Readiness</li>
-          <li>8. Vulnerability & Threat Exposure Management</li>
-        </ul>
+        <ol class="ra-list">
+            <li>Platform Foundation, Architecture & Development Setup</li>
+            <li>Asset Inventory Core</li>
+            <li>Rig-Centric Network Diagram</li>
+            <li>IEC 62443 Security Program</li>
+            <li>Lifecycle & Expiry Management</li>
+            <li>Offline-First & Sync Strategy</li>
+            <li>Reporting & Visualisation</li>
+            <li>Platform Hardening & Release Readiness</li>
+            <li>Vulnerability & Threat Exposure Management</li>
+        </ol>
       </div>
     </div>
 

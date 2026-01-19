@@ -29,7 +29,7 @@ a:hover { text-decoration: none; }
 
 .topbar {
   position: sticky;
-  top: 0;
+  top: -1px;
   background: rgb(255 255 255 / 69%); /* rgba(11, 15, 20, 0.88); */
   backdrop-filter: blur(10px);
   /* border-bottom: 1px solid rgba(15, 23, 42, 0.247); border-bottom: 1px solid var(--border); */
